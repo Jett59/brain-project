@@ -9,6 +9,7 @@ import javax.swing.*;
 public class AIStarter {
 	public static void main(String[] args) {
 	memoryCortex memories = new memoryCortex();
+		System.out.println("hi");
 	JPanel panel = new JPanel();
 	JFrame frame = new JFrame("ai terminal");
 	frame.add(panel);
