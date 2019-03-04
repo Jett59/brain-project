@@ -2,7 +2,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mycodefu</groupId>
   <artifactId>brainProject</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+<version>0.0.1-SNAPSHOT</version>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
