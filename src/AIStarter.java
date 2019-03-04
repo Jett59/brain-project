@@ -9,11 +9,6 @@ import javax.swing.*;
 public class AIStarter {
 	public static void main(String[] args) {
 	memoryCortex memories = new memoryCortex();
-	memories.addMemory(new thought("testing"));
-	memories.addMemory(new thought("another test"));
-	for(int i = 0; i < 25; i++) {
-		memories.addMemory(new thought("num " + i));
-	}
 	JPanel panel = new JPanel();
 	JFrame frame = new JFrame("ai terminal");
 	frame.add(panel);
